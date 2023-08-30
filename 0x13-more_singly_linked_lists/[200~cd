@@ -1,0 +1,149 @@
+
+vo@DESKTOP-V36PH01 MINGW64 ~
+$ cd"E:\Git"
+bash: cdE:\Git: No such file or directory
+
+lenovo@DESKTOP-V36PH01 MINGW64 ~
+$ cd "^[[200~
+> cd
+>
+> ^C
+
+lenovo@DESKTOP-V36PH01 MINGW64 ~
+$ cd "E:\Git"
+
+lenovo@DESKTOP-V36PH01 MINGW64 /e/Git
+$ git clone  https://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@github.com/Abdelrahman121331/alx-low_level_programming.git
+Cloning into 'alx-low_level_programming'...
+remote: Enumerating objects: 475, done.
+remote: Counting objects: 100% (187/187), done.
+remote: Compressing objects: 100% (147/147), done.
+remote: Total 475 (delta 57), reused 169 (delta 39), pack-reused 288Receiving ob
+Receiving objects:  95% (452/475)
+Receiving objects: 100% (475/475), 80.09 KiB | 988.00 KiB/s, done.
+Resolving deltas: 100% (169/169), done.
+
+lenovo@DESKTOP-V36PH01 MINGW64 /e/Git
+$ cd alx-low_alx-low_level_programming
+bash: cd: $'\302\226\302\226\302\226\302\226\302\226\302\226\302\226\302\226alx-low_level_programming': No such file or directory
+
+lenovo@DESKTOP-V36PH01 MINGW64 /e/Git
+$ cd alx-low_level_programming
+
+lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming (master)
+$ mkdir 0x13-more_singly_linked_lists
+
+lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming (master)
+$ cd 0x13-more_singly_linked_lists
+
+lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+$ vi lists.h
+
+lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+$ vi 0-print_listint.c
+
+lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+$ git add .
+warning: in the working copy of '0x13-more_singly_linked_lists/0-print_listint.c', LF will be replaced by CRLF the nex
+t time Git touches it
+warning: in the working copy of '0x13-more_singly_linked_lists/lists.h', LF will be replaced by CRLF the next time Git
+ touches it
+
+ lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+ $ git commit -m "A"
+ [master 747eab4] A
+  2 files changed, 58 insertions(+)
+   create mode 100644 0x13-more_singly_linked_lists/0-print_listint.c
+    create mode 100644 0x13-more_singly_linked_lists/lists.h
+
+    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+    $ git push
+    Enumerating objects: 6, done.
+    Counting objects: 100% (6/6), done.
+    Delta compression using up to 8 threads
+    Compressing objects: 100% (5/5), done.
+    Writing objects: 100% (5/5), 947 bytes | 947.00 KiB/s, done.
+    Total 5 (delta 1), reused 0 (delta 0), pack-reused 0
+    remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+    To https://github.com/Abdelrahman121331/alx-low_level_programming.git
+       1f69664..747eab4  master -> master
+
+       lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+       $ echo "README" > README.md
+
+       lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+       $ git add .
+       warning: in the working copy of '0x13-more_singly_linked_lists/README.md', LF will be replaced by CRLF the next time G
+       it touches it
+       g
+       lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+       $ git commit -m "A"
+       [master 596e3cf] A
+        1 file changed, 1 insertion(+)
+	 create mode 100644 0x13-more_singly_linked_lists/README.md
+	 gi
+	 lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	 $ git push
+	 Enumerating objects: 6, done.
+	 Counting objects: 100% (6/6), done.
+	 Delta compression using up to 8 threads
+	 Compressing objects: 100% (3/3), done.
+	 Writing objects: 100% (4/4), 380 bytes | 380.00 KiB/s, done.
+	 Total 4 (delta 1), reused 1 (delta 0), pack-reused 0
+	 remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+	 To https://github.com/Abdelrahman121331/alx-low_level_programming.git
+	    747eab4..596e3cf  master -> master
+
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 1-listint_len.c
+
+
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 2-add_nodeint.c
+
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 3-add_nodeint_end.c
+	    vi
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 4-free_listint.c
+
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 5-free_listint2.c
+	    i
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 6-pop_listint.c
+	    vi
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 7-get_nodeint.c
+
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 7-get_nodeint.c
+
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    ره ^C
+
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 8-sum_8-sum_listint.c
+	    bash: $'\302\226\302\226\302\226\302\226\302\226\302\226vi': command not found
+
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 8-sum_listint.c
+
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 9-insert_nodeint.c
+	    vi
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 10-delete_nodeint.c
+	    v
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 10-delete_nodeint.c
+
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 100-reverse_listint.c
+	    v
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi 101-print_listint_safe.c
+	    i
+	    lenovo@DESKTOP-V36PH01 MINGW64 /e/Git/alx-low_level_programming/0x13-more_singly_linked_lists (master)
+	    $ vi
+
